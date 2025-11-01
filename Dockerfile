@@ -19,3 +19,4 @@ EXPOSE 8501
 # the command to run the streamlit app
 #CMD ["streamlit", "run","Fake_news_UI.py", "--server.port=8501", "--server.address=0.0.0.0"] for local terminal run
 CMD streamlit run Fake_news_UI.py --server.port=$PORT --server.address=0.0.0.0
+
