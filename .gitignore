@@ -2,7 +2,7 @@
 .venv/
 
 #ignoring model file
-# model/
+model/
 
 #ignore pythonc cache files
 __pycache__/
